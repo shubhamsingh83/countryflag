@@ -22,7 +22,7 @@ export default function App() {
     height: "100px",
   };
 
-  const containerStyle = {
+  const containStyle = {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
@@ -42,7 +42,7 @@ export default function App() {
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={containStyle}>
       {countries.map((item) => {
         return (
           <div key={item.cca3} style={cardStyle}>
